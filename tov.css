@@ -1,0 +1,67 @@
+.wrap{
+  max-width: 1200px;
+              margin: 0 auto;
+                margin-top: 30px;
+  margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Дозволяє блокам переноситися на новий ряд при необхідності */
+}
+.product {
+            flex: 0 0 30%; /* 30% ширини контейнера; можна змінити за потребою */
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 768px) {
+            .product {
+                flex: 0 0 50%; /* При розширенні екрану менше 768px, блоки розтягуються на всю ширину */
+         padding-left: 10px;
+            }
+        }
+        @media screen and (max-width: 450px) {
+            .product {
+                flex: 0 0 100%; /* При розширенні екрану менше 768px, блоки розтягуються на всю ширину */
+         padding-left: 10px;
+            }
+          }
+
+h3  {
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price1, .price2, .price3, .price4 {
+   font-size: 17px;
+   color: indigo;
+   display: block;
+   margin-bottom: 12px;
+}
+#button{
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #122A0A;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-wrapper {
+  display: block;
+  width: 100%;
+  float: left;
+  transition: width .2s;
+}

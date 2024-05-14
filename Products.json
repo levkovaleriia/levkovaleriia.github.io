@@ -1,0 +1,37 @@
+{
+  "product1" : 
+    {
+      "name" : "Тактичні рукавички Warrior Mil-Tec® Dark Green",
+      "price" : "280 грн",
+      "image" : "gloves.png"
+    },
+   "product2" : 
+    {
+      "name" : "Військова форма (убакс та штани) з наколінниками та налокітниками ",
+      "price" : "2 450 грн",
+      "image" : "uniform.png"
+    },
+    "product3" :
+    {
+      "name" : "Балаклава RIBANA Black",
+      "price" : "200 грн",
+      "image" : "balaclava.png"
+    },
+    "product4" :
+    {
+      "name" : "Тактичні Черевики Mil-Tec Combat II Generation Black ",
+      "price" : "1 200 грн",
+      "image" : "boots.png"
+    },
+    "product5" :
+    {
+      "name" : "Рюкзак Тактичний Mil-Tec® Large 36l",
+      "price" : "1 800 грн",
+      "image" : "backpack.png"
+    },
+    "product6" :{
+      "name" : "Балістичний армійський шолом піхотний, клас рівня NIJ IIIA",
+      "price" : "3 700 грн",
+      "image" : "helmet.png"
+    }
+}

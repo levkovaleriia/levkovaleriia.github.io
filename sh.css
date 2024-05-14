@@ -1,0 +1,260 @@
+    .shopping {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+.cart{
+  position: relative;
+  right: 15px;
+  height: 23px;
+  width: 23px;
+}
+.quantity {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+   
+.list{
+  max-width: 1200px;
+              margin: 0 auto;
+                margin-top: 30px;
+  margin-bottom: 30px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Дозволяє блокам переноситися на новий ряд при необхідності */
+}
+.list .it {
+            flex: 0 0 30%; /* 30% ширини контейнера; можна змінити за потребою */
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .list .it:hover {
+            transform: scale(1.05);
+        }
+        @media screen and (max-width: 768px) {
+          .list .it {
+                flex: 0 0 50%; /* При розширенні екрану менше 768px, блоки розтягуються на всю ширину */
+         padding-left: 10px;
+            }
+        }
+        @media screen and (max-width: 450px) {
+          .list .it {
+                flex: 0 0 100%; /* При розширенні екрану менше 768px, блоки розтягуються на всю ширину */
+         padding-left: 10px;
+         font-size: 14px;
+            }
+          }
+          
+
+h3  {
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price1, .price2, .price3, .price4 {
+   font-size: 17px;
+   color: indigo;
+   display: block;
+   margin-bottom: 12px;
+}
+#button1, #button3, #button4{
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: green;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+#button2 {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: orange;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-wrapper {
+  display: block;
+  width: 100%;
+  float: left;
+  transition: width .2s;
+}
+
+.card{
+  position: fixed;
+  top:105px;
+  left: 100%;
+  width: 500px;
+  background-color: #122A0A;
+  height: 85vh;
+  transition: 0.5s;
+  z-index: 1;
+}
+.active .card{
+  left: calc(100% - 500px);
+  z-index: 1;
+}
+.active .kosh{
+ transform: translateX(-200px);
+}
+@media screen and (max-width: 1024px) {
+  .card {
+    top:0px;
+    height: 100vh;
+  }}
+@media screen and (max-width: 500px) {
+  .card {
+    width: 100%;
+    z-index: 1;
+}
+.active .card{
+  left: calc(100% - 100%);
+}
+.active .kosh{
+ transform: translateX(-200px);
+}
+}
+.card h1{
+  color: beige;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.card .checkOut{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+  background-color: beige;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.card .checkOut div:nth-child(2){
+  background-color: #122A0A;
+  color: beige;
+
+}
+.listCard li{
+  display: grid;
+  grid-template-columns: 100px repeat(3, 1fr);
+  color: beige;
+  row-gap: 10px;
+}
+.listCard li div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listCard li img{
+  width: 60%;
+}
+.listCard li button{
+  background-color: #122A0A;
+  border: none;
+}
+.listCard .count{
+  margin: 0 10px;
+}
+@media screen and (max-width: 360px) {
+  .listCard .count{
+    margin: 0 2px;
+    font-size: 9px;
+  }
+  .listCard li img{
+    width: 50%;
+    margin: 0;
+  }
+  .listCard li div{
+    height: 80px;
+  }
+  .card .checkOut div{
+    height: 45px;
+  }
+}
+input[type=text]{
+  background-color: beige;
+    position: relative;
+    margin: 20px 40px 20px 20px;
+    width: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    transition: width 0.4s ease;
+    outline: none;
+    &:focus{ width: 300px; }
+  
+      z-index: auto;
+  }
+  
+  #sea{
+    position: relative;
+    left: -37px;
+    color: #122A0A;
+      z-index: auto;
+  }
+  .kat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kat form {
+    margin: 10px;
+}
+
+button {
+    background-color:#122A0A;
+color: white;
+border:none; 
+border-radius:10px; 
+padding:10px;
+min-height:10px; 
+min-width: 70px;
+}
+button:hover{
+    color: beige;
+}
+@media(min-width: 1024px){
+.kat form {
+    margin: 17px;
+}
+}

@@ -1,0 +1,39 @@
+.nas{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: left;
+    color: black;
+    font-size: 17px;
+}
+h1{
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+.e p{
+    line-height: 30px;
+    text-align: justify;
+}
+h4{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.nas ul{
+    padding-left: 30px;
+    list-style-type:  none;
+}
+.nas i{
+      padding-right: 10px;
+}
+.nas li{
+    padding-bottom: 15px;
+}
+@media(min-width: 1024px){
+    .nas{
+        margin-left: 60px;
+        margin-right: 35px;
+    }
+    h1{
+     padding-top: 60px;
+    font-size: 30px;
+}
+}

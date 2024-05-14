@@ -1,0 +1,272 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+            #cap{
+                height: 45px;
+                max-width: 100%;
+                left: 0px;
+                top: 0px;
+                background: #122A0A;
+                color:  white;
+            }
+            #cap, i{
+                font-size: 12px;
+            }
+            .pho, .mail{
+                display: none;
+            }
+            .prof{
+                padding-left: 25px;
+                padding-top: 15px;
+            }
+
+
+        
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+    background: beige;
+
+}
+#menuIcons{
+    padding-right: 15px;
+}
+
+.menu-list {
+    width: 100%;
+    height:180px;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 25px;
+    background: #122A0A;
+
+}
+
+.main-menu i {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+a, a:active, .a:visited{
+    color: white;
+    text-decoration:none;
+}
+#iconClose{
+    display: none;
+}
+.logo{
+    margin-left: 25px;
+    color: #122A0A;
+}
+
+            @media(min-width: 1024px){
+                .pho, .mail{
+                    padding-top: 15px;
+                    display: inline-flex;
+                    padding-left: 25px;
+                }
+                .prof{
+                    position: relative;
+                    top: -30px;
+                    margin-left: 425px;
+                }
+               
+        .main-menu i {
+            z-index: 2;
+        display: none;
+    }
+    .menu-list {
+        z-index: 2;
+        position: relative;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    background: white;
+    height: 50px;
+    margin-left: -10%;
+    font-size: 17px;
+    background: beige;
+    }
+    .menu-list li:not(:last-child) {
+        margin-right: 50px;
+    }
+    .header-menu {
+        height: 60px;
+    }
+    a, a:active, .a:visited{
+    color: black;
+}
+.logo{
+    font-size: 35px;
+    color: #122A0A;
+    margin-left: 50px;
+}
+            }
+.way{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.gl{
+    color: black;
+}
+@media(min-width: 1024px){
+    .way{
+        font-size: 13px;
+    }
+}
+
+#contact{
+        height: 690px;
+        background:beige;
+        font-family: 'Libre Franklin';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+       text-align: center;
+       color: black;
+    }
+    #y7bkc{
+        padding-top: 25px;
+    }
+    .v, .p, .m, .k, .b, .c, .te, .l{
+        color: black;
+    }
+    .q, .s{
+        padding-top: 15px;
+    }
+    #r8cms, #c07ay, .location{
+         padding-top: 25px;
+    }
+    .common, .phone, .ma{
+        padding-top: 25px;
+    }
+    .pra{
+         background-color: beige;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+    }
+.lo{
+    padding-top: 25px;
+    color: #122A0A;
+}
+.social-networks-vld0p div.social-networks a, .social-networks-vld0p div.social-networks a svg , .social-networks-vld0p div.social-networks a svg path {
+        transition: .3s ease;
+        }
+        .social-networks-vld0p div.social-networks a:hover span.outline.email.custom svg {
+            fill:  !important;
+        }
+
+        .social-networks-vld0p div.social-networks a:hover span.custom svg path{
+            fill:  !important;
+        }
+
+        .social-networks-vld0p div.social-networks a:hover {
+            fill:  !important;
+        }
+        .log{
+            padding-top: 20px;
+        }
+        #social-networks{
+            padding-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 15em;
+        }
+@media(min-width: 1024px){
+    #contact{
+        height: 320px;
+    }
+
+#y7bkc{
+        padding-top: 0px;
+    }
+    #r8cms, #c07ay{
+         padding-top: 0px;
+    }
+        .lo{
+            text-align: left;
+            padding-top: 55px;
+            padding-left: 55px;
+            font-size: 35px;
+        }
+        #social-networks{
+            margin-left: 0;
+            margin-right: 25px;
+            padding-top: 10px;
+            padding-left: 50px;
+            display: flex;
+            align-items: center;
+        }
+        #y7bkc{
+            text-align: left;
+            padding-left: 375px;
+            
+        }
+        #r8cms{
+           text-align: left;
+           padding-left: 635px;
+         
+        }
+        ul{
+            list-style-type:  none;
+        }
+        #c07ay{
+            text-align: left;
+           padding-left: 785px;
+
+        }
+        
+#y7bkc{
+    position: relative;
+            bottom: 115px;
+}
+#r8cms{
+      position: relative;
+           bottom: 225px; 
+}
+#c07ay{
+position: relative;
+           bottom: 440px; 
+}
+
+        .pra{
+            position: relative;
+            bottom: 360px;
+        }
+        }
+        #myBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed/sticky position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 20px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: rgba(18,42,10, 0.5); /* Set a background color */
+            color: beige; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 90%; /* Rounded corners */
+            font-size: 15px; /* Increase font size */
+            width: 5px;
+          }
+          
+          #myBtn:hover {
+            background-color: #555; /* Add a dark-grey background on hover */
+          }
+          
+

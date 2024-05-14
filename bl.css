@@ -1,0 +1,114 @@
+
+.info{
+    height: 550px;
+    margin-bottom: 25px;
+}
+.apt{
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background: url('35573.jpg');
+    background-size: cover;
+    height: 105px;
+    min-width:100%;
+    text-align: center;
+    color: white;
+}
+h2{
+     padding-top: 30px;
+     text-shadow: 2px 2px 5px black;
+}
+.in{
+    margin-top: 55px;
+}
+.t{
+    color: black;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.leftimg {
+
+    width: 100%;
+float:left; 
+margin: 0px 15px 15px 0px; 
+}
+@media(min-width: 650px){
+    .leftimg{
+        width: 550px;
+    }}
+@media(max-width: 542px){
+    .in{
+        margin-top: 25px;
+    }
+}
+@media(min-width: 1024px){
+    .apt{
+        height: 150px;
+    }
+    h2{
+     padding-top: 60px;
+    font-size: 30px;
+}
+.in{
+    margin-top: 75px;
+    font-size: 20px;
+}
+.leftimg {
+    margin-left: 15px;}
+
+}
+#contact{
+        margin-top: 250px;
+}
+@media(min-width: 300px){
+    #contact{
+        margin-top: 275px;
+    }
+}
+    @media(min-width: 370px){
+    #contact{
+        margin-top: 215px;
+    }
+}
+    @media(min-width: 630px){
+    #contact{
+        margin-top: 225px;
+    }
+}
+@media(min-width: 650px){
+    #contact{
+        margin-top: 175px;
+    }
+}
+@media(min-width: 710px){
+    #contact{
+        margin-top: 115px;
+    }
+}
+@media(min-width: 780px){
+    #contact{
+        margin-top: 85px;
+    }
+}
+@media(min-width: 810px){
+    #contact{
+        margin-top: 45px;
+    }
+}
+@media(min-width: 860px){
+    #contact{
+        margin-top: 5px;
+    }
+}
+@media(min-width: 900px){
+    #contact{
+        margin-top: -85px;
+    }
+}
+@media(min-width: 1024px){
+    #contact{
+        margin-top: 75px;
+    }
+}
+
